@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/CGSM1652.JPG);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+body {
+    font-family: system-ui, -apple-system, segoe ui, Roboto, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+
+}
+
+.nav-links ul li a {
+    color: floralwhite;
+    text-decoration: none;
+    font-size: medium;
+}
+
+main {
+    width: 90%;
+    color: floralwhite;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.social-icon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: white;
+}
+
+.social-icon span {
+    margin-left: 0.1rem;
+}
+
+.social-icon {
+    margin: 1rem;
+}
+
+a {
+    color: white;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2rem;
+    ;
+}
+
+p {
+    margin: 1rem 4rem;
+    font-size: large;
+}
+
+.pagesource {
+    font-size: 0.9rem;
+}
